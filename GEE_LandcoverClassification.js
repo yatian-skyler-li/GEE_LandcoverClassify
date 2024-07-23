@@ -1,5 +1,7 @@
 /* A JavaScript script using Google Earth Engine to classify land cover types in an areas defined in Tasmania, Australia */
 /**** Start of imports. If edited, may not auto-convert in the playground. ****/
+/* The Region of Interest (ROI) and landcover samples are defined using polygon tool in Google Earth Engine */
+/* Water, urban, agriculture, forest, exposed are defined as five landcover classes in this project */
 var ROI = 
     /* color: #ffc82d */
     /* shown: false */
